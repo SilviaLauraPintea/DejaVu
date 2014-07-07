@@ -29,7 +29,7 @@ make
 
 >> Code documentation: 
 
-- Motion prediction part (each feature patch has a corresponding motion patch): 
+- Motion prediction part: 
 https://github.com/SilviaLauraPintea/DejaVu/blob/master/motionRF.pdf
 
 - Structured RF part (inherited by the motion part): 
