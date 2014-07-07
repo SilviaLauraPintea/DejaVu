@@ -14,7 +14,7 @@ make
 
 
 
->> Run: edit the cofing file with the corresponding paths towards data (see bin/config_example.txt):
+>> Run: edit the config file with the corresponding paths towards data (see bin/config_example.txt):
 
 - Usage: ./dejavu [what] [mode] [config.txt]
 
@@ -29,8 +29,14 @@ make
 
 >> Code documentation: 
 
-- Motion prediction part: https://github.com/SilviaLauraPintea/DejaVu/blob/master/motionRF.pdf
+- Motion prediction part: 
 
-- Structured RF part (inherited by the motion part): https://github.com/SilviaLauraPintea/DejaVu/blob/master/structureRF.pdf
+https://github.com/SilviaLauraPintea/DejaVu/blob/master/motionRF.pdf
+
+- Structured RF part (inherited by the motion part): 
+
+https://github.com/SilviaLauraPintea/DejaVu/blob/master/structureRF.pdf
+
+
 
 ####Have loads of fun!
