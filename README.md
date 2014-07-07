@@ -29,10 +29,10 @@ make
 
 >> Code documentation: 
 
-- Motion prediction part: 
+- Motion prediction: 
 https://github.com/SilviaLauraPintea/DejaVu/blob/master/motionRF.pdf
 
-- Structured RF part (inherited by the motion part): 
+- Structured RF (inherited by the motion part): 
 https://github.com/SilviaLauraPintea/DejaVu/blob/master/structuredRF.pdf
 
 
