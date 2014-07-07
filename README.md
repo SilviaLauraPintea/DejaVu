@@ -2,7 +2,7 @@ DejaVu
 ============
 When using this software, please reference the paper:
 
-S. Pintea, J. van Gemert and A. Smeulders, Dejavu: Motion Prediction in Static Images, ECCV 2014.
+### S. Pintea, J. van Gemert and A. Smeulders, Dejavu: Motion Prediction in Static Images, ECCV 2014.
 
 
  
@@ -22,7 +22,7 @@ make
 
 [mode (0)]: 0 - train; 1 - test; 2 - train & test; 3 - extract; 4 - extract flow (only Motion); 5 - train with jobrunners; 6 - test with    jobrunners; 7 - extract OF with jobrunners
 
-[mode (1)]: 0 - ERROR, 1 - FLOW, 2 - RAW4PYTHON, 3 - ALL
+[mode (1)]: 0 - segmentation error, 1 - motion error, 2 - raw values for python, 3 - all.
 
 [mode (2)]: generate config files
 
