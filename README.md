@@ -27,5 +27,10 @@ make
 [mode (2)]: generate config files
 
 
+>> Code documentation: 
+
+- Motion prediction part: https://github.com/SilviaLauraPintea/DejaVu/blob/master/motionRF.pdf
+
+- Structured RF part (inherited by the motion part): https://github.com/SilviaLauraPintea/DejaVu/blob/master/structureRF.pdf
 
 ####Have loads of fun!
