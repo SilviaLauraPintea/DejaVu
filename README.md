@@ -14,7 +14,7 @@ make
 
 
 
->> Run: edit the cofing file with the corresponding paths towards data (see config_example.txt):
+>> Run: edit the cofing file with the corresponding paths towards data (see bin/config_example.txt):
 
 - Usage: ./dejavu [what] [mode] [config.txt]
 
