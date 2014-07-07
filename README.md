@@ -7,14 +7,14 @@ S. Pintea, J. van Gemert and A. Smeulders, Dejavu: Motion Prediction in Static I
 
  
 >> Compile (needs OpenCV2.4.+ and Boost).
->> Edit the CMakeLists with the correct path towards the sources directory. 
+>> Edit the bin/CMakeLists.txt with the correct path towards the sources directory. 
 
 cmake CMakeLists.txt
 make
 
 
 
->> Run: edit the cofing file with the corresponding paths towards data:
+>> Run: edit the cofing file with the corresponding paths towards data (see config_example.txt):
 
 - Usage: ./dejavu [what] [mode] [config.txt]
 
