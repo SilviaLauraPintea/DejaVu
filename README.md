@@ -2,7 +2,7 @@ DejaVu
 ============
 When using this software, please reference the paper:
 
-###S. Pintea, J. van Gemert and A. Smeulders, Dejavu: Motion Prediction in Static Images, ECCV 2014.
+#####S. Pintea, J. van Gemert and A. Smeulders, Dejavu: Motion Prediction in Static Images, ECCV 2014.
 
 
  
