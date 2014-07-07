@@ -1,0 +1,23 @@
+Determining if the function cblas_ddot exists failed with the following output:
+Change Dir: /home/silvia/Repositories/randomBlobs/src/third/dlib-18.7/examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2128714567/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2128714567.dir/build.make CMakeFiles/cmTryCompileExec2128714567.dir/build
+gmake[1]: Entering directory `/local/Repositories/randomBlobs/src/third/dlib-18.7/examples/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/silvia/Repositories/randomBlobs/src/third/dlib-18.7/examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2128714567.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=cblas_ddot   -o CMakeFiles/cmTryCompileExec2128714567.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2128714567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2128714567.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=cblas_ddot    CMakeFiles/cmTryCompileExec2128714567.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2128714567 -rdynamic /usr/lib64/atlas/libatlas.a /usr/lib64/atlas/libcblas.a 
+/usr/lib64/atlas/libcblas.a(cblas_ddot.o): In function `cblas_ddot':
+cblas_ddot.c:(.text+0x11): undefined reference to `ATL_ddot'
+cblas_ddot.c:(.text+0x2e): undefined reference to `ATL_ddot'
+cblas_ddot.c:(.text+0x51): undefined reference to `ATL_ddot'
+cblas_ddot.c:(.text+0x5e): undefined reference to `ATL_ddot'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2128714567] Error 1
+gmake[1]: Leaving directory `/local/Repositories/randomBlobs/src/third/dlib-18.7/examples/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2128714567/fast] Error 2
+
+

@@ -1,0 +1,73 @@
+# [0] Core name for the jobrunners only:
+core 
+# [0] Name of the run to be written in the log-file:
+RUN_NAME
+# [1] Path to the results directory:
+/home/user/DejaVu/bin/results/
+# [2] Path to the training data:
+/home/user/data/train/
+# [3] Path to the test data:
+/home/user/data/test/
+# [4] Path to motion trees:
+/home/user/DejaVu/bin/trees/
+# [5] Path to the extracted features:
+/home/user/DejaVu/bin/features/
+# [6] Image extension for reading images:
+png
+
+# [8] [Width, Height] for the feature patches:
+32 32
+# [9] [Width, Height] for the motion patches:
+32 32
+# [10] Number of trees to use:
+10
+# [11] Pyramid size followed by scales (not used).
+1 1
+# [12] Number of images used for training:
+20
+# [13] Number of iterations per tree node during training:
+20
+# [14] Entropy type: 0 - CENTER, 1 - RANDOM, 2 - CENTER_RANDOM, 3 - MEAN_DIFF, 4 - APPROX_MAGNI_KERNEL, 5 - APPROX_ANGLE_KERNEL (only option 3 used):
+3
+# [15] Training Step of the grid for sampling patches:
+5
+# [16] Test Step of the grid for sampling patches:
+1
+# [17] Save the trees to binary (1) files or text (0):
+1
+# [18] Sigma for the KDE -- flow derivatives 4 values, flow 2 values (not used).
+1 0
+# [19] Warping of the patches (yes - 1, no - 0):
+0
+# [20] Thresholding of the magnitudes (yes - 1 [only makes sense with warping], no  - 0):
+0
+# [21] Avg in leaf or not:
+1
+# [22] Parent frequency weights in splits [0 | 1]:
+0
+# [23] Parent frequency weights in leaves [0 | 1]:
+0                                     
+# [24] Entropy thresholding for making leaves:
+1e-3          
+# [25] Server port for jobrunners (0 for no jobrunners): 
+0
+# [26] Dry run for the jobrunners (1 - only outputs the commands, 0 - runs them).
+0
+# [27] The number of bins for KDE (not used).
+0
+# [28] Multiclass motion predictions (1) or not (0) (for the action recognition part).
+0    
+# [29] Use flow derivatives (1) or not (0):
+0
+# [30] Use random pick (1) or full patch with independence (0) (not used).
+0   
+# [31] HOG descriptors - 1 or SIFT descriptors - 0:
+1
+# [32] Patches at: Harris points - 0, Canny edges - 1, Densely - 2: 
+1
+# [33] tree growing: depth - 0, breadth - 1, worst - 2:
+2
+# [34] Number of leaves for stopping:
+1000 
+# [35] Maximum image size:
+300

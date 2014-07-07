@@ -1,0 +1,30 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=mex 2012.9.18)  11 AUG 2013 21:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sift.c
+(./sift.c
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+
+Overfull \hbox (21.41231pt too wide) in paragraph at lines 28--43
+\tenrm sift-tech-detector-edge - @ref sift-tech-detector-orientation - @ref sif
+t-tech-descriptor - @ref sift-tech-descriptor-can|
+
+\hbox(6.88889+1.94444)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm i
+.\tenrm f
+.\tenrm t
+.\tenrm -
+.etc.
+
+! Misplaced alignment tab character &.
+l.69 structures which resemble &
+                                ldquo;blobs&rdquo;. By searching for blobs
+? 
+! Emergency stop.
+l.69 structures which resemble &
+                                ldquo;blobs&rdquo;. By searching for blobs
+End of file on the terminal!
+
+No pages of output.
