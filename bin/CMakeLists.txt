@@ -37,11 +37,11 @@ SET(BOOST_LIB /usr/lib64 "Location of boost libraries")
 SET(BOOST_INC /usr/include "Boost include directory")
 
 # Path for VlFeat___________________________________________________________
-SET(VLFEAT_LIB ${SRC}/third/vlfeat-0.9.16/bin/glnxa64 CACHE PATH "Location of the VLfit")
+SET(VLFEAT_LIB ${HOME_DIR}/vlfeat-0.9.16/bin/glnxa64 CACHE PATH "Location of the VLfit")
 
 # Path to the Dlib stuff_____________________________________________________
-SET(DLIB_INC ${SRC}/third/dlib-18.7 CACHE PATH "Location of the dlib headers")
-SET(DLIB_LIB ${SRC}/third/dlib-18.7/examples/build/dlib_build CACHE PATH "Location of the dlib libraries")
+SET(DLIB_INC ${HOME_DIR}/dlib-18.7 CACHE PATH "Location of the dlib headers")
+SET(DLIB_LIB ${HOME_DIR}/dlib-18.7/examples/build/dlib_build CACHE PATH "Location of the dlib libraries")
 ##################################################################################### 
 ### INCLUDE & LINK STUFF ############################################################ 
 ##################################################################################### 
