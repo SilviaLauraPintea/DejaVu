@@ -6,7 +6,7 @@ When using this software, please reference the paper:
 
 
  
->> Compile (needs OpenCV2.4.+ and Boost).
+>> Compile (needs OpenCV2.4.+, vlfeat-0.9.16, dlib-18.7 and Boost).
 >> Edit the bin/CMakeLists.txt with the correct path towards the sources directory. 
 
 cmake CMakeLists.txt
