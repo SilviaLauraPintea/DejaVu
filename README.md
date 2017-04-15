@@ -32,7 +32,3 @@ https://github.com/SilviaLauraPintea/DejaVu/blob/master/motionRF.pdf
 
 - Structured RF (inherited by the motion part): 
 https://github.com/SilviaLauraPintea/DejaVu/blob/master/structuredRF.pdf
-
-
-
-#####Have loads of fun!
