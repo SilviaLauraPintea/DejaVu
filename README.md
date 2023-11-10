@@ -7,7 +7,7 @@ Official implementation of the DejaVu: *"DejaVu: Motion Prediction in Static Ima
 
 This work proposes motion prediction in single still images by learning it from a set of videos. The building assumption is that similar motion is characterized by similar appearance. The proposed method learns local motion patterns given a specific appearance and adds the predicted motion in a number of applications. This work (i) introduces a novel method to predict motion from appearance in a single static image, (ii) to that end, extends of the Structured Random Forest with regression derived from first principles, and (iii) shows the value of adding motion predictions in different tasks such as: weak frame-proposals containing unexpected events, action recognition, motion saliency. Illustrative results indicate that motion prediction is not only feasible, but also provides valuable information for a number of applications.
 
-## Project webpage: i<a href="https://silvialaurapintea.github.io/dejavu.html"> https://silvialaurapintea.github.io/dejavu.html </a>
+## Project webpage: <a href="https://silvialaurapintea.github.io/dejavu.html"> https://silvialaurapintea.github.io/dejavu.html </a>
 
 ### Requirements
 The code was tested on Linux (Ubuntu 14.04 LTS):
